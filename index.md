@@ -1,36 +1,54 @@
 ---
-layout: splash
-title: "Ciao, sono Giovanni"
+layout: single
+title: "Giovanni [Cognome]"
 permalink: /
-header:
-  overlay_color: "#000"
-  overlay_filter: 0.2
-  overlay_image: /assets/img/header.jpg
-excerpt: "Studente di fisica. Lavoro su Drell–Yan e sviluppo progetti web come RecenSito."
-intro: 
-  - excerpt: 'Qui trovi il mio CV, i progetti, le pubblicazioni e come contattarmi.'
-feature_row:
-  - image_path: /assets/img/avatar.svg
-    alt: "CV"
-    title: "CV / About"
-    excerpt: "Percorso, interessi e competenze."
-    url: "/about/"
-    btn_label: "Vai alla pagina"
-    btn_class: "btn--primary"
-  - image_path: /assets/img/avatar.svg
-    alt: "Progetti"
-    title: "Progetti"
-    excerpt: "RecenSito e altri lavori di coding."
-    url: "/projects/"
-    btn_label: "Scopri i progetti"
-    btn_class: "btn--primary"
-  - image_path: /assets/img/avatar.svg
-    alt: "Ricerca"
-    title: "Ricerca"
-    excerpt: "Tesi, note e pubblicazioni."
-    url: "/research/"
-    btn_label: "Leggi di più"
-    btn_class: "btn--primary"
+author_profile: true
 ---
 
-{% include feature_row %}
+# 👋 Ciao, sono Giovanni
+
+Sono uno **studente di Fisica** all’Università di [Nome], appassionato di **fisica delle particelle**, **teoria elettrodebole** e **sviluppo web scientifico**.  
+Attualmente sto lavorando alla mia tesi sullo **studio dei processi Drell–Yan** in **corrente neutra e carica**, con particolare attenzione alla **parametrizzazione dei protoni** e alla **dipendenza dai parametri elettrodeboli fondamentali**.
+
+---
+
+## 🔬 Ricerca
+Mi interessa comprendere i legami tra la **struttura dei protoni** e le **misure di precisione** dell’interazione elettrodebole.  
+Sto sviluppando strumenti per analizzare l’impatto di variazioni nei parametri fondamentali (\(M_W, M_Z, G_F, \alpha, \sin^2\theta_W\)) sulla Lagrangiana e sui processi Drell–Yan al LHC.
+
+📄 Dai un’occhiata alla sezione [**Ricerca**](/research/) per la mia tesi, note e materiali.
+
+---
+
+## 💻 Progetti
+Nel tempo libero sviluppo progetti web legati alla scienza e alla letteratura.  
+Il più recente è [**RecenSito**](https://recensito.fly.dev), una piattaforma per condividere e valutare libri.  
+Amo costruire strumenti che uniscano **codice, pensiero e bellezza**.
+
+📂 Tutti i miei lavori sono raccolti in [**Progetti**](/projects/).
+
+---
+
+## 🧭 Percorso
+Mi muovo tra **fisica teorica**, **analisi numerica** e **sviluppo di software scientifico**.  
+Ho esperienza con:
+- linguaggi come **Python**, **C++**, **Fortran**, **LaTeX**
+- strumenti come **ROOT**, **NumPy**, **Pandas**, **Matplotlib**
+- framework web come **Flask** e **GitHub Pages**
+
+---
+
+## 🌱 Oltre la fisica
+Mi interessano la **letteratura**, la **filosofia** e la **divulgazione**.  
+Credo che la ricerca, come la scrittura, nasca dallo stesso desiderio: dare **forma all’invisibile**.
+
+---
+
+📬 Se vuoi contattarmi o collaborare, scrivimi a  
+[**giovanni@example.com**](mailto:giovanni@example.com)  
+o visita la pagina [**Contatti**](/contact/).
+
+---
+
+> *“L’unico vero viaggio di scoperta non consiste nel cercare nuove terre, ma nell’avere nuovi occhi.”*  
+> — Marcel Proust
