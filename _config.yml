@@ -13,20 +13,17 @@ plugins:
 
 # SEO
 author:
-  name: "Giovanni"
+  name: "Giovanni Maglio"
   avatar: "/assets/img/avatar.svg"
-  bio: "Studente di fisica. Mi occupo di elettrodebole, Drell–Yan e progetti web."
-  location: "Italia"
+  bio: "Physics' student"
+  location: "Italy"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:tuo.nome@esempio.com"
+      url: "giovanni.maglio@studenti.unimi.it"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tuo-username"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/tuo-username"
     - label: "RecenSito"
       icon: "fas fa-fw fa-book"
       url: "https://recensito.example.com"
@@ -64,10 +61,10 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/tuo-username"
+      url: "https://giovannimaglio.github.io/giovanni.github.io/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:tuo.nome@esempio.com"
+      url: "giovanni.maglio@studenti.unimi.it"
 
 # Opzioni varie
 paginate: 5
