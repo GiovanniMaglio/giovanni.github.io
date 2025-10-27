@@ -61,13 +61,6 @@ excerpt: "Personal site • physics and more"
 
 ---
 
-## 🗣️ Teaching & Talks {#teaching}
-
----
-
-## 🏅 Awards & Grants {#awards}
-
----
 
 ## ✉️ Contact {#contact}
 - **Email:** <giovanni.maglio@studenti.unimi.it>
