@@ -23,7 +23,7 @@ author:
       url: "mailto:giovanni.maglio@studenti.unimi.it"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/tuo-username"
+      url: "https://github.com/GiovanniMaglio"
     - label: "RecenSito"
       icon: "fas fa-fw fa-book"
       url: "https://giovannimaglio.pythonanywhere.com"
@@ -61,7 +61,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://giovannimaglio.github.io/giovanni.github.io/"
+      url: "GiovanniMaglio"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:giovanni.maglio@studenti.unimi.it"
