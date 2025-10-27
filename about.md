@@ -3,18 +3,38 @@ title: "CV / About"
 permalink: /about/
 ---
 
-👋 Sono **Giovanni**, studente di fisica. Mi occupo di elettrodebole e processi di **Drell–Yan**.  
-Qui trovi il mio CV sintetico. Per il PDF completo, aggiungi il file in `assets/` e linkalo qui.
+# 👋 About Me
 
-## Formazione
-- Laurea Triennale in Fisica — *Università ...* (20XX–20XX)
+I’m **Giovanni Maglio**, a Physics graduate from the **University of Milan (Università degli Studi di Milano)**.  
+My work focuses on **electroweak interactions** and **Drell–Yan processes**, with particular attention to the parametrization of the proton and the impact of variations in the fundamental electroweak parameters.
 
-## Competenze
-- Linguaggi: Python, C/C++, Fortran, LaTeX
-- Web: Flask, Jinja, HTML/CSS, Docker (base)
-- Data: NumPy, Pandas, Matplotlib
+---
 
-## Interessi
-Fisica delle particelle (parametrizzazioni, PDF, elettrodebole), divulgazione e sviluppo web.
+## 🎓 Education
+- **B.Sc. in Physics**, *University of Milan*, 2022–2025  
+  Final grade: **102/110**  
+  **Thesis:** *Study of Drell–Yan processes in neutral and charged current with variations of electroweak parameters*  
 
-[Scarica il CV (PDF)](/assets/CV_Giovanni.pdf){: .btn .btn--primary}
+---
+
+## 🧠 Skills
+- **Programming:** Python, C/C++, Fortran, LaTeX   
+- **Web Development:** Flask, HTML/CSS, Jinja, Docker (basic)
+
+---
+## 🔬 Research Interests
+- Theoretical physics and fundamental interactions  
+- Quantum Field Theory (QFT) and the Standard Model  
+- Gauge symmetries and Lie groups  
+- Differential geometry and mathematical methods in physics  
+- Quantum gravity and string theory
+
+---
+
+## 🌱 Personal Interests
+Beyond physics, I’m passionate about **literature, philosophy, and science communication**.  
+I believe that research and writing share the same purpose — to give form to curiosity and clarity to complexity.
+
+---
+
+[📄 Download my CV (PDF)]({{ site.baseurl }}/assets/CV_Giovanni.pdf){: .btn .btn--primary }
