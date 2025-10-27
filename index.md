@@ -2,13 +2,19 @@
 layout: splash
 title: "Giovanni Maglio"
 permalink: /
+classes: no-masthead   # ⟵ aggiungi questa riga
 header:
   overlay_image: /assets/img/header.jpg
-  overlay_color: "#1a2a52"      # blu accademico profondo
-  overlay_filter: 0.15          # leggera velatura trasparente per il testo
-excerpt: "Physics • Books Review "
+  overlay_color: "#1a2a52"
+  overlay_filter: 0.15
+excerpt: "Particle Physics • Electroweak Precision • Computational Tools"
 ---
 
+<style>
+/* Nasconde la top bar solo in questa pagina (che ha body.no-masthead) */
+.no-masthead .masthead { display: none !important; }
+.no-masthead .initial-content { padding-top: 0 !important; }
+</style>
 <!-- Elegance and readability -->
 <style>
   /* Title & subtitle readability */
