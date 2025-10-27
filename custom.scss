@@ -1,0 +1,13 @@
+/* --- Avatar style override --- */
+.author__avatar img {
+  border-radius: 0 !important;   /* toglie il cerchio, ora è rettangolare */
+  width: 190px !important;       /* più grande */
+  height: auto !important;       /* mantiene le proporzioni */
+  box-shadow: 0 4px 12px rgba(0,0,0,.15); /* leggero effetto di profondità */
+}
+
+/* facoltativo: centra meglio il profilo */
+.author__avatar {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
