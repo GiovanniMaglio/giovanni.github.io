@@ -1,8 +1,8 @@
 title: "Giovanni — Sito Personale"
 name: "Giovanni"
 description: "Fisica • Progetti • Ricerca • Scritti"
-url: "" # Lascia vuoto, GitHub Pages lo imposta automaticamente
-baseurl: "" # Lascia vuoto per un user site come giovanni.github.io
+url: "https://giovannimaglio.github.io"
+baseurl: "/giovanni.github.io"
 locale: it-IT
 
 # Tema
