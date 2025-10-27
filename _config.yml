@@ -14,7 +14,7 @@ plugins:
 # SEO
 author:
   name: "Giovanni Maglio"
-  avatar: "/assets/img/avatar.svg"
+  avatar: "/assets/img/avatar.jpeg"
   bio: "Physics' student"
   location: "Italy"
   links:
