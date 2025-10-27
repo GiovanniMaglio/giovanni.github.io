@@ -1,12 +1,16 @@
 ---
-title: "Ricerca"
+title: "Research"
 permalink: /research/
 ---
 
-### Tesi
-**Titolo tesi** — anno
-- Breve abstract: obiettivi, metodo e risultati principali.
-- Allegati: slide, testo PDF, codice d'analisi (link).
+## 🎓 Thesis
+**Study of Drell–Yan Processes in Neutral and Charged Current with Variations of Electroweak Parameters** — 2025  
+- Abstract: investigation of the impact of electroweak parameter variations (\(M_W, M_Z, \alpha, G_F\)) on the Lagrangian structure and on the Drell–Yan cross sections.  
+- Attachments:
+  - [📄 Download Thesis (PDF)]({{ site.baseurl }}/assets/Tesi.pdf){: .btn .btn--primary }
 
-### Pubblicazioni e note
-- *Parton Density Uncertainties and the Determination of Electroweak Parameters at Hadron Colliders* — traduzione e commento (link).
+
+---
+
+## 📄 Publications & Notes
+- *Parton Density Uncertainties and the Determination of Electroweak Parameters at Hadron Colliders* — translation and commentary (link).
