@@ -1,0 +1,9 @@
+---
+# this file must have front matter so Jekyll builds it
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // theme core
+
+/* IMPORTA I TUOI STILI PERSONALIZZATI (cartella _sass) */
+@import "custom";
