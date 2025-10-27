@@ -1,13 +1,14 @@
-/* --- Avatar style override --- */
-.author__avatar img {
-  border-radius: 0 !important;   /* niente cerchio */
-  width: 190px !important;       /* più grande */
-  height: auto !important;
-  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+/* --- Fix avatar alignment & size in author box --- */
+.author__avatar {
+  text-align: center !important;       /* centra l'immagine orizzontalmente */
+  margin: 0 auto 1rem auto !important; /* allinea al centro con margine sotto */
 }
 
-/* opzionale: centratura e spaziatura del box autore */
-.author__avatar {
-  text-align: center;
-  margin-bottom: 1.2rem;
+.author__avatar img {
+  display: block;
+  margin: 0 auto;                      /* centra perfettamente l'immagine */
+  border-radius: 4px !important;       /* leggera stondatura, non ovale */
+  width: 220px !important;             /* aumenta la dimensione */
+  height: auto !important;             /* mantiene proporzioni */
+  box-shadow: 0 4px 14px rgba(0,0,0,.15); /* ombra morbida elegante */
 }
