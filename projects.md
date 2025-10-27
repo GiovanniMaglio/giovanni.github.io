@@ -5,7 +5,7 @@ permalink: /projects/
 
 ### RecenSito
 A site for collecting and voting on books. 
-→ https://giovannimaglio.pythonanywhere.com
+Visit my book project [**RecenSito**](https://giovannimaglio.pythonanywhere.com) — a personal web app for reviewing and sharing books.
 
 ### Other
 - 
