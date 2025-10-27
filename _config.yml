@@ -1,0 +1,76 @@
+title: "Giovanni — Sito Personale"
+name: "Giovanni"
+description: "Fisica • Progetti • Ricerca • Scritti"
+url: "" # Lascia vuoto, GitHub Pages lo imposta automaticamente
+baseurl: "" # Lascia vuoto per un user site come giovanni.github.io
+locale: it-IT
+
+# Tema
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# SEO
+author:
+  name: "Giovanni"
+  avatar: "/assets/img/avatar.svg"
+  bio: "Studente di fisica. Mi occupo di elettrodebole, Drell–Yan e progetti web."
+  location: "Italia"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:tuo.nome@esempio.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tuo-username"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/tuo-username"
+    - label: "RecenSito"
+      icon: "fas fa-fw fa-book"
+      url: "https://recensito.example.com"
+
+# Layout di default per le pagine
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+
+# Navigazione
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "CV / About"
+    url: "/about/"
+  - title: "Progetti"
+    url: "/projects/"
+  - title: "Ricerca"
+    url: "/research/"
+  - title: "Contatti"
+    url: "/contact/"
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tuo-username"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:tuo.nome@esempio.com"
+
+# Opzioni varie
+paginate: 5
+markdown: kramdown
+kramdown:
+  input: GFM
