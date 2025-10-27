@@ -1,14 +1,17 @@
-/* --- Fix avatar alignment & size in author box --- */
+/* --- Author avatar: centered and larger --- */
 .author__avatar {
-  text-align: center !important;       /* centra l'immagine orizzontalmente */
-  margin: 0 auto 1rem auto !important; /* allinea al centro con margine sotto */
+  display: flex !important;
+  justify-content: center !important;   /* centra orizzontalmente */
+  align-items: center !important;
+  margin: 0 auto 1.2rem auto !important; /* spaziatura sotto */
+  text-align: center !important;
 }
 
 .author__avatar img {
-  display: block;
-  margin: 0 auto;                      /* centra perfettamente l'immagine */
-  border-radius: 4px !important;       /* leggera stondatura, non ovale */
-  width: 220px !important;             /* aumenta la dimensione */
-  height: auto !important;             /* mantiene proporzioni */
-  box-shadow: 0 4px 14px rgba(0,0,0,.15); /* ombra morbida elegante */
+  display: block !important;
+  margin: 0 auto !important;
+  border-radius: 6px !important;        /* leggermente stondato, non tondo */
+  width: 230px !important;              /* grandezza immagine */
+  height: auto !important;
+  box-shadow: 0 4px 14px rgba(0,0,0,.18); /* ombra morbida e accademica */
 }
