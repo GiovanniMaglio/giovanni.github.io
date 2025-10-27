@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/img/header.jpg
   overlay_color: "#1a2a52"      # blu accademico profondo
   overlay_filter: 0.15          # leggera velatura trasparente per il testo
-excerpt: "Particle Physics • Electroweak Precision • Computational Tools"
+excerpt: "Physics • Books Review "
 ---
 
 <!-- Elegance and readability -->
