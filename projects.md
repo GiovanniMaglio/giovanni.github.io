@@ -1,5 +1,5 @@
 ---
-title: "Progetti"
+title: "Projects"
 permalink: /projects/
 ---
 
