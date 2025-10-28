@@ -31,13 +31,19 @@ excerpt: "Personal site • Physics and more"
   color: #0d1a33;
 }
 
-/* Button tones adjusted to match the academic blue palette */
-.btn--primary   { background-color:#1e3a8a; border:none; }
-.btn--info      { background-color:#2563eb; border:none; }
-.btn--success   { background-color:#1e40af; border:none; }
+/* Uniform button color (bright academic blue) */
+.btn--primary,
+.btn--info,
+.btn--success {
+  background-color: #2b5de0 !important;  /* lighter, elegant blue */
+  border: none !important;
+  color: #fff !important;
+}
 .btn--primary:hover,
 .btn--info:hover,
-.btn--success:hover { filter: brightness(1.15); }
+.btn--success:hover {
+  filter: brightness(1.15);
+}
 
 /* Layout for intro section (photo right, text left) */
 .intro-wrapper {
@@ -84,7 +90,7 @@ excerpt: "Personal site • Physics and more"
     </p>
   </div>
   <div class="intro-photo">
-    <img src="{{ site.baseurl }}/assets/img/avatar.jpeg" alt="Giovanni Maglio portrait">
+    <img src="{{ site.baseurl }}/assets/img/avatar.jpg" alt="Giovanni Maglio portrait">
   </div>
 </div>
 
@@ -96,12 +102,12 @@ excerpt: "Personal site • Physics and more"
 ---
 
 ## 🔬 Research {#research}
-[Explore Research]({{ site.baseurl }}/research/){: .btn .btn--info }
+[Explore Research]({{ site.baseurl }}/research/){: .btn .btn--primary }
 
 ---
 
 ## 🧰 Projects {#projects}
-[View Projects]({{ site.baseurl }}/projects/){: .btn .btn--success }
+[View Projects]({{ site.baseurl }}/projects/){: .btn .btn--primary }
 
 ---
 
