@@ -3,6 +3,11 @@ title: "CV / About"
 permalink: /about/
 ---
 
+<!-- Foto visibile SOLO su mobile, allineata a destra -->
+<div class="mobile-portrait">
+  <img src="{{ site.baseurl }}/assets/img/avatar.jpg" alt="Giovanni Maglio">
+</div>
+
 # 👋 About Me
 
 I’m **Giovanni Maglio**, a Physics graduate from the **University of Milan (Università degli Studi di Milano)**.  
@@ -22,6 +27,7 @@ My work focuses on **electroweak interactions** and **Drell–Yan processes**, w
 - **Web Development:** Flask, HTML/CSS, Jinja, Docker (basic)
 
 ---
+
 ## 🔬 Research Interests
 - Theoretical physics and fundamental interactions  
 - Quantum Field Theory (QFT) and the Standard Model  
