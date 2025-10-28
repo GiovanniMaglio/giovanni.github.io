@@ -1,61 +1,37 @@
-/* ==== Sidebar Author: centrato, proporzionato, responsive ==== */
-.author__avatar {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  text-align: center !important;
-  margin: 0 auto 1rem auto !important;
+/* ==== Sidebar Author: centrato, mai ovale, responsive ==== */
+.author__avatar{
+  display:flex !important;
+  justify-content:center !important;
+  align-items:center !important;
+  text-align:center !important;
+  margin:0 auto 1rem auto !important;
 }
 
-.author__avatar img {
-  display: block !important;
-  margin: 0 auto !important;
-  float: none !important;
-  width: 180px !important;           /* desktop size */
-  height: 180px !important;
-  object-fit: cover !important;
-  aspect-ratio: 1 / 1 !important;
-  border-radius: 50% !important;
-  border: 3px solid #1a2a52 !important;
-  box-shadow: 0 4px 14px rgba(0,0,0,.18);
-  max-width: 100% !important;
-  height: auto !important;
+/* DESKTOP/TABLET: cerchio perfetto */
+.author__avatar img{
+  display:block !important;
+  margin:0 auto !important;
+  float:none !important;
+  width:180px !important;            /* L = H  ⇒ cerchio */
+  height:180px !important;
+  max-width:none !important;         /* ignora max-width del tema */
+  max-height:none !important;
+  object-fit:cover !important;       /* ritaglio senza deformazioni */
+  border-radius:50% !important;
+  border:3px solid #1a2a52 !important;
+  box-shadow:0 4px 14px rgba(0,0,0,.18);
 }
 
-/* Bio e link centrati */
-.author__bio,
-.author__urls-wrapper {
-  text-align: center !important;
-}
+/* Evita sticky/overlap su mobile e riduci la misura */
+@media (max-width: 768px){
+  .sticky{ position:static !important; }
+  .sidebar{ width:100% !important; margin:0 auto 1rem !important; }
+  .author__avatar{ margin-top:12px !important; }
 
-.author__urls.social-icons li a {
-  justify-content: center !important;
-}
-
-/* ==== Layout mobile fix ==== */
-@media (max-width: 768px) {
-  /* disattiva sticky e forza layout fluido */
-  .sticky { position: static !important; }
-
-  .author__avatar {
-    margin-top: 1rem !important;
-  }
-
-  .author__avatar img {
-    width: 120px !important;         /* più piccolo su smartphone */
-    height: 120px !important;
-    aspect-ratio: 1 / 1 !important;  /* forma quadrata perfetta */
-    border-radius: 50% !important;
-  }
-
-  /* evita che la sidebar si sovrapponga al titolo */
-  .sidebar {
-    width: 100% !important;
-    margin: 0 auto 1rem auto !important;
-  }
-
-  /* sposta il box autore sotto l'header */
-  .layout--single .sidebar {
-    order: 2;
+  .author__avatar img{
+    width:120px !important;          /* L = H  ⇒ sempre cerchio */
+    height:120px !important;
+    max-width:none !important;
+    max-height:none !important;
   }
 }
