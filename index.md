@@ -35,7 +35,7 @@ excerpt: "Personal site • Physics and more"
 .btn--primary,
 .btn--info,
 .btn--success {
-  background-color: #b0b8c2; !important;  /* lighter, elegant blue */
+  background-color: #7da3c8; !important;  /* lighter, elegant blue */
   border: none !important;
   color: #fff !important;
 }
