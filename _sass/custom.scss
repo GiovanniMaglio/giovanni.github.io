@@ -22,16 +22,32 @@
   box-shadow:0 4px 14px rgba(0,0,0,.18);
 }
 
-/* Evita sticky/overlap su mobile e riduci la misura */
+/* --- Mobile: nascondi avatar/sidebar autore e disattiva sticky --- */
 @media (max-width: 768px){
-  .sticky{ position:static !important; }
-  .sidebar{ width:100% !important; margin:0 auto 1rem !important; }
-  .author__avatar{ margin-top:12px !important; }
+  .sticky{ position: static !important; }     /* niente sovrapposizioni */
+  .author__avatar,
+  .author__bio,
+  .author__urls-wrapper { display: none !important; }
+  /* se vuoi proprio nascondere tutta la colonna laterale, scommenta: */
+  /* .sidebar { display:none !important; } */
+}
 
-  .author__avatar img{
-    width:120px !important;          /* L = H  ⇒ sempre cerchio */
-    height:120px !important;
-    max-width:none !important;
-    max-height:none !important;
+/* Stile per la foto mobile inline */
+.mobile-portrait{
+  display: none;
+}
+@media (max-width: 768px){
+  .mobile-portrait{
+    display: block;
+    text-align: right;            /* foto a destra su mobile */
+    margin: .25rem 0 1rem 0;
   }
+  .mobile-portrait img{
+    width: 120px; height: 120px;  /* quadrata/circolare ben proporzionata */
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #1a2a52;
+    box-shadow: 0 4px 12px rgba(0,0,0,.18);
+  }
+}
 }
