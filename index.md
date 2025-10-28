@@ -35,7 +35,7 @@ excerpt: "Personal site • Physics and more"
 .btn--primary,
 .btn--info,
 .btn--success {
-  background-color: #2b5de0 !important;  /* lighter, elegant blue */
+  background-color: #b0b8c2; !important;  /* lighter, elegant blue */
   border: none !important;
   color: #fff !important;
 }
@@ -83,10 +83,8 @@ excerpt: "Personal site • Physics and more"
     <h1 style="margin-bottom:0.5rem;">Giovanni Maglio</h1>
     <p style="margin-top:0; font-size:1.05rem; color:#1e293b;">
       Physics graduate from the University of Milan, with research interests in 
-      <strong>theoretical and electroweak physics</strong>, 
-      <strong>quantum field theory</strong>, and 
+      <strong>theoretical physics</strong> and 
       <strong>mathematical structures of fundamental interactions</strong>.
-      Passionate about connecting rigorous theory with computational tools and scientific communication.
     </p>
   </div>
   <div class="intro-photo">
