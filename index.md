@@ -90,7 +90,7 @@ excerpt: "Personal site • Physics and more"
     </p>
   </div>
   <div class="intro-photo">
-    <img src="{{ site.baseurl }}/assets/img/avatar.jpg" alt="Giovanni Maglio portrait">
+    <img src="{{ site.baseurl }}/assets/img/avatar.jpeg" alt="Giovanni Maglio portrait">
   </div>
 </div>
 
