@@ -1,4 +1,4 @@
-/* ==== Sidebar Author: centrato, dimensioni sane, no sovrapposizioni ==== */
+/* ==== Sidebar Author: centrato, proporzionato, no sovrapposizioni ==== */
 .author__avatar {
   display: flex !important;
   justify-content: center !important;
@@ -7,16 +7,19 @@
   margin: 0 auto 1rem auto !important;
 }
 
+/* Avatar perfettamente proporzionato */
 .author__avatar img {
   display: block !important;
   margin: 0 auto !important;
-  float: none !important;          /* annulla eventuali float del tema */
-  border-radius: 50% !important;   /* se lo vuoi tondo; metti 6px per rettangolare */
-  width: 200px !important;         /* desktop/tablet */
-  height: 200px !important;
-  object-fit: cover !important;
+  float: none !important;
+  width: 200px !important;          /* larghezza fissa desktop */
+  height: auto !important;          /* altezza automatica = proporzioni corrette */
+  aspect-ratio: 1 / 1 !important;   /* mantiene forma quadrata */
+  object-fit: cover !important;     /* riempie senza deformare */
+  border-radius: 50% !important;    /* cerchio perfetto */
   border: 3px solid #1a2a52 !important;
   box-shadow: 0 4px 14px rgba(0,0,0,.18);
+  max-width: none !important;
 }
 
 /* Allinea e compatta i blocchi sotto la foto */
@@ -29,17 +32,14 @@
   justify-content: center !important;
 }
 
-/* Evita sticky che può creare incastri su mobile */
+/* Mobile fix */
 @media (max-width: 768px) {
-  .sticky { position: static !important; }
+  .sticky { position: static !important; } /* evita overlap */
   .author__avatar img {
-    width: 150px !important;       /* più piccolo su smartphone */
-    height: 150px !important;
+    width: 150px !important;        /* più piccolo */
+    height: auto !important;        /* mantiene proporzioni */
+    aspect-ratio: 1 / 1 !important; /* sempre quadrato */
   }
-}
-
-/* Evita che la sidebar “spinga” sul contenuto su schermi stretti */
-@media (max-width: 768px) {
   .sidebar {
     width: 100% !important;
     margin: 0 auto 1rem auto !important;
