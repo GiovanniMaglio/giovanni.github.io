@@ -7,16 +7,16 @@
   margin:0 auto 1rem auto !important;
 }
 
-/* DESKTOP/TABLET: cerchio perfetto */
+/* Desktop/Tablet: cerchio perfetto e proporzionato */
 .author__avatar img{
   display:block !important;
   margin:0 auto !important;
   float:none !important;
-  width:180px !important;            /* L = H  ⇒ cerchio */
+  width:180px !important;             /* L = H ⇒ cerchio */
   height:180px !important;
-  max-width:none !important;         /* ignora max-width del tema */
+  max-width:none !important;
   max-height:none !important;
-  object-fit:cover !important;       /* ritaglio senza deformazioni */
+  object-fit:cover !important;
   border-radius:50% !important;
   border:3px solid #1a2a52 !important;
   box-shadow:0 4px 14px rgba(0,0,0,.18);
@@ -24,30 +24,28 @@
 
 /* --- Mobile: nascondi avatar/sidebar autore e disattiva sticky --- */
 @media (max-width: 768px){
-  .sticky{ position: static !important; }     /* niente sovrapposizioni */
+  .sticky{ position: static !important; }     /* evita sovrapposizioni */
   .author__avatar,
   .author__bio,
   .author__urls-wrapper { display: none !important; }
-  /* se vuoi proprio nascondere tutta la colonna laterale, scommenta: */
+  /* Per nascondere tutta la colonna laterale su mobile, scommenta: */
   /* .sidebar { display:none !important; } */
 }
 
-/* Stile per la foto mobile inline */
-.mobile-portrait{
-  display: none;
-}
+/* Foto mobile inline (da usare nelle pagine con <div class="mobile-portrait">) */
+.mobile-portrait{ display:none; }
+
 @media (max-width: 768px){
   .mobile-portrait{
-    display: block;
-    text-align: right;            /* foto a destra su mobile */
-    margin: .25rem 0 1rem 0;
+    display:block;
+    text-align:right;                  /* foto a destra su mobile */
+    margin:.25rem 0 1rem 0;
   }
   .mobile-portrait img{
-    width: 120px; height: 120px;  /* quadrata/circolare ben proporzionata */
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #1a2a52;
-    box-shadow: 0 4px 12px rgba(0,0,0,.18);
+    width:120px; height:120px;        /* proporzionata */
+    object-fit:cover;
+    border-radius:50%;
+    border:3px solid #1a2a52;
+    box-shadow:0 4px 12px rgba(0,0,0,.18);
   }
-}
 }
