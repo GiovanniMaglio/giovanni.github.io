@@ -1,17 +1,47 @@
-/* --- Author avatar: centered and larger --- */
+/* ==== Sidebar Author: centrato, dimensioni sane, no sovrapposizioni ==== */
 .author__avatar {
   display: flex !important;
-  justify-content: center !important;   /* centra orizzontalmente */
+  justify-content: center !important;
   align-items: center !important;
-  margin: 0 auto 1.2rem auto !important; /* spaziatura sotto */
   text-align: center !important;
+  margin: 0 auto 1rem auto !important;
 }
 
 .author__avatar img {
   display: block !important;
   margin: 0 auto !important;
-  border-radius: 6px !important;        /* leggermente stondato, non tondo */
-  width: 230px !important;              /* grandezza immagine */
-  height: auto !important;
-  box-shadow: 0 4px 14px rgba(0,0,0,.18); /* ombra morbida e accademica */
+  float: none !important;          /* annulla eventuali float del tema */
+  border-radius: 50% !important;   /* se lo vuoi tondo; metti 6px per rettangolare */
+  width: 200px !important;         /* desktop/tablet */
+  height: 200px !important;
+  object-fit: cover !important;
+  border: 3px solid #1a2a52 !important;
+  box-shadow: 0 4px 14px rgba(0,0,0,.18);
+}
+
+/* Allinea e compatta i blocchi sotto la foto */
+.author__bio,
+.author__urls-wrapper {
+  text-align: center !important;
+}
+
+.author__urls.social-icons li a {
+  justify-content: center !important;
+}
+
+/* Evita sticky che può creare incastri su mobile */
+@media (max-width: 768px) {
+  .sticky { position: static !important; }
+  .author__avatar img {
+    width: 150px !important;       /* più piccolo su smartphone */
+    height: 150px !important;
+  }
+}
+
+/* Evita che la sidebar “spinga” sul contenuto su schermi stretti */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100% !important;
+    margin: 0 auto 1rem auto !important;
+  }
 }
