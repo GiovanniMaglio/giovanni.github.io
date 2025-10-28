@@ -1,4 +1,4 @@
-/* ==== Sidebar Author: centrato, proporzionato, no sovrapposizioni ==== */
+/* ==== Sidebar Author: centrato, proporzionato, responsive ==== */
 .author__avatar {
   display: flex !important;
   justify-content: center !important;
@@ -7,22 +7,22 @@
   margin: 0 auto 1rem auto !important;
 }
 
-/* Avatar perfettamente proporzionato */
 .author__avatar img {
   display: block !important;
   margin: 0 auto !important;
   float: none !important;
-  width: 200px !important;          /* larghezza fissa desktop */
-  height: auto !important;          /* altezza automatica = proporzioni corrette */
-  aspect-ratio: 1 / 1 !important;   /* mantiene forma quadrata */
-  object-fit: cover !important;     /* riempie senza deformare */
-  border-radius: 50% !important;    /* cerchio perfetto */
+  width: 180px !important;           /* desktop size */
+  height: 180px !important;
+  object-fit: cover !important;
+  aspect-ratio: 1 / 1 !important;
+  border-radius: 50% !important;
   border: 3px solid #1a2a52 !important;
   box-shadow: 0 4px 14px rgba(0,0,0,.18);
-  max-width: none !important;
+  max-width: 100% !important;
+  height: auto !important;
 }
 
-/* Allinea e compatta i blocchi sotto la foto */
+/* Bio e link centrati */
 .author__bio,
 .author__urls-wrapper {
   text-align: center !important;
@@ -32,16 +32,30 @@
   justify-content: center !important;
 }
 
-/* Mobile fix */
+/* ==== Layout mobile fix ==== */
 @media (max-width: 768px) {
-  .sticky { position: static !important; } /* evita overlap */
-  .author__avatar img {
-    width: 150px !important;        /* più piccolo */
-    height: auto !important;        /* mantiene proporzioni */
-    aspect-ratio: 1 / 1 !important; /* sempre quadrato */
+  /* disattiva sticky e forza layout fluido */
+  .sticky { position: static !important; }
+
+  .author__avatar {
+    margin-top: 1rem !important;
   }
+
+  .author__avatar img {
+    width: 120px !important;         /* più piccolo su smartphone */
+    height: 120px !important;
+    aspect-ratio: 1 / 1 !important;  /* forma quadrata perfetta */
+    border-radius: 50% !important;
+  }
+
+  /* evita che la sidebar si sovrapponga al titolo */
   .sidebar {
     width: 100% !important;
     margin: 0 auto 1rem auto !important;
+  }
+
+  /* sposta il box autore sotto l'header */
+  .layout--single .sidebar {
+    order: 2;
   }
 }
