@@ -5,7 +5,7 @@ permalink: /about/
 
 <!-- Foto visibile SOLO su mobile, allineata a destra -->
 <div class="mobile-portrait">
-  <img src="{{ site.baseurl }}/assets/img/avatar.jpg" alt="Giovanni Maglio">
+  <img src="{{ site.baseurl }}/assets/img/avatar.jpeg" alt="Giovanni Maglio">
 </div>
 
 # 👋 About Me
