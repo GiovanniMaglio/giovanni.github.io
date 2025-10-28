@@ -15,7 +15,7 @@ excerpt: "Personal site • Physics and more"
 .no-masthead .masthead { display: none !important; }
 .no-masthead .initial-content { padding-top: 0 !important; }
 
-/* Title & subtitle readability */
+/* Title & subtitle readability sull'hero */
 .page__hero .page__title,
 .page__hero .page__lead {
   color: #f9fafc;
@@ -23,29 +23,28 @@ excerpt: "Personal site • Physics and more"
   letter-spacing: 0.3px;
 }
 
-/* Section titles with subtle blue underline */
+/* Titoli sezione con underline azzurro opaco */
 .page__content h2 {
   margin-top: 2.2rem;
   padding-bottom: .3rem;
-  border-bottom: 2px solid #1a2a52;
+  border-bottom: 2px solid #7da3c8;
   color: #0d1a33;
 }
 
-/* Uniform button color (bright academic blue) */
+/* Pulsanti tutti azzurro accademico opaco */
 .btn--primary,
 .btn--info,
 .btn--success {
-  background-color: #7da3c8; !important;  /* lighter, elegant blue */
+  background-color: #7da3c8 !important;
   border: none !important;
   color: #fff !important;
+  transition: all 0.2s ease-in-out;
 }
 .btn--primary:hover,
 .btn--info:hover,
-.btn--success:hover {
-  filter: brightness(1.15);
-}
+.btn--success:hover { filter: brightness(1.12); }
 
-/* Layout for intro section (photo right, text left) */
+/* ===== Intro layout (foto a destra su desktop) ===== */
 .intro-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -54,25 +53,47 @@ excerpt: "Personal site • Physics and more"
   gap: 1.2rem;
   margin-bottom: 2rem;
 }
-
-.intro-text {
-  flex: 1 1 60%;
-  min-width: 250px;
-}
-
-.intro-photo {
-  flex: 1 1 30%;
-  min-width: 180px;
-  text-align: right;
-}
+.intro-text   { flex: 1 1 60%; min-width: 260px; }
+.intro-photo  { flex: 1 1 30%; min-width: 180px; text-align: right; }
 
 .intro-photo img {
-  width: 220px;
-  height: 220px;
+  width: 220px;             /* desktop */
+  height: 220px;            /* desktop */
+  max-width: 100%;
   border-radius: 50%;
   border: 3px solid #1a2a52;
   box-shadow: 0 4px 14px rgba(0,0,0,.2);
   object-fit: cover;
+}
+
+/* ===== Tablet (riduciamo leggermente) ===== */
+@media (max-width: 992px) {
+  .intro-photo img {
+    width: 190px;
+    height: 190px;
+  }
+}
+
+/* ===== Smartphone (stack a colonna, niente sovrapposizioni) ===== */
+@media (max-width: 640px) {
+  .intro-wrapper {
+    flex-direction: column;        /* mettiamo in colonna */
+    align-items: flex-start;       /* testo allineato a sinistra */
+  }
+  .intro-text { order: 1; width: 100%; }
+  .intro-photo { 
+    order: 2;                      /* foto sotto il nome/bio */
+    width: 100%; 
+    text-align: center;            /* centriamo la foto */
+    margin-top: .5rem;
+  }
+  .intro-photo img {
+    width: 150px;                  /* più piccola su mobile */
+    height: 150px;
+  }
+  /* Margini titolo/bio per evitare incastri */
+  .intro-text h1 { margin-bottom: .35rem; }
+  .intro-text p  { margin-top: .25rem; }
 }
 </style>
 
