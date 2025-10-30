@@ -1,4 +1,4 @@
-—--
+---
 layout: splash
 title: "Giovanni Maglio"
 permalink: /
