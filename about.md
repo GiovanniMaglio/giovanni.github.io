@@ -43,4 +43,4 @@ I believe that research and writing share the same purpose — to give form to c
 
 ---
 
-[📄 Download my CV (PDF)]({{ site.baseurl }}/assets/CV_Giovanni.pdf){: .btn .btn--primary }
+[📄 Download my CV (PDF)]({{ site.baseurl }}/assets/Curriculum.pdf){: .btn .btn--primary }
