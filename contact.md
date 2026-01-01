@@ -3,7 +3,7 @@ title: "Contatti"
 permalink: /contact/
 ---
 
-- 📧 Email: [tuo.nome@esempio.com](mailto:giovanni.maglio@studenti.unimi.it)
-- 🧪 GitHub: [tuo-username](https://github.com/GiovanniMaglio)
+- 📧 Email: [giovanni.maglio@studenti.unimi.it](mailto:giovanni.maglio@studenti.unimi.it)
+- 🧪 GitHub: [GiovanniMaglio](https://github.com/GiovanniMaglio)
 
 
