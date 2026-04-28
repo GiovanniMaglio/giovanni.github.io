@@ -124,7 +124,7 @@ excerpt: "Personal site • Physics and more"
 
 ---
 
-## 🧰 Projects and Notes {#projects}
+## 🧰 Projects {#projects}
 [View Projects]({{ site.baseurl }}/projects/){: .btn .btn--primary }
 
 
