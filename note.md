@@ -1,3 +1,9 @@
+---
+title: "Note"
+permalink: /note/
+---
+
+
 ## 📝 Some Personal Lecture Notes
 
 - **Gravità e Superstringhe 1** — 
