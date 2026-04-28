@@ -4,7 +4,7 @@ permalink: /projects/
 ---
 
 
-## 📝 Lecture Notes
+## 📝 Some Personal Lecture Notes
 
 - **Gravità e Superstringhe 1** — 
   [👁️ View](https://drive.google.com/file/d/1csyrIzGxBGRTu3xoCLim18-_DmjUYoO2/view) · 
