@@ -1,5 +1,5 @@
 ---
-title: "Note"
+title: "Notes"
 permalink: /note/
 ---
 
