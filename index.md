@@ -125,14 +125,13 @@ excerpt: "Personal site • Physics and more"
 
 ---
 
-## 🧰 Projects {#projects}
+## 🧰 Projects and Notes {#projects}
 [View Projects]({{ site.baseurl }}/projects/){: .btn .btn--primary }
 
----
-
-## 📚 Publications {#publications}
 
 ---
 
 ## ✉️ Contact {#contact}
+- **Email:** <magligiovanni03@gmail.com>
 - **Email:** <giovanni.maglio@studenti.unimi.it>
+
