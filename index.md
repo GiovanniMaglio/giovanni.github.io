@@ -101,7 +101,6 @@ excerpt: "Personal site • Physics and more"
 
 <div class="intro-wrapper">
   <div class="intro-text">
-    <h1 style="margin-bottom:0.5rem;">Giovanni Maglio</h1>
     <p style="margin-top:0; font-size:1.05rem; color:#1e293b;">
       Physics graduate from the University of Milan, with research interests in 
       <strong>theoretical physics</strong> and 
