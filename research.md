@@ -13,4 +13,4 @@ permalink: /research/
 ---
 
 ## 📄 Publications & Notes
-- *Parton Density Uncertainties and the Determination of Electroweak Parameters at Hadron Colliders* — translation and commentary (link).
+
