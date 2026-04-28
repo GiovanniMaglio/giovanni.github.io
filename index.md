@@ -132,6 +132,6 @@ excerpt: "Personal site • Physics and more"
 ---
 
 ## ✉️ Contact {#contact}
-- **Email:** <magligiovanni03@gmail.com>
+- **Email:** <magliogiovanni03@gmail.com>
 - **Email:** <giovanni.maglio@studenti.unimi.it>
 
