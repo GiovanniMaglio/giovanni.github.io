@@ -131,7 +131,7 @@ excerpt: "Personal site • Physics and more"
 ---
 
 ## 📝 Notes {#note}
-[View Projects]({{ site.baseurl }}/note/){: .btn .btn--primary }
+[View Notes]({{ site.baseurl }}/note/){: .btn .btn--primary }
 
 
 ---
