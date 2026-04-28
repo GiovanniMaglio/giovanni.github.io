@@ -7,8 +7,8 @@ permalink: /projects/
 
 Here you can find my lecture notes in PDF format.
 
-- [📄 Gravità e superstringhe 1]({{ site.baseurl }}/assets/notes/mechanics.pdf){: .btn .btn--primary }
-- [📄 Gravità e superstringhe 2 (pt.1)]({{ site.baseurl }}/assets/notes/em.pdf){: .btn .btn--primary }
+- [📄 Gravità e superstringhe 1]({{ site.baseurl }}/assets/GS1.pdf){: .btn .btn--primary }
+- [📄 Gravità e superstringhe 2 (pt.1)]({{ site.baseurl }}/assets/GS2(Pt.1).pdf){: .btn .btn--primary }
 
 
 ### RecenSito
