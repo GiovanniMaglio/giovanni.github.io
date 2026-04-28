@@ -3,19 +3,20 @@ title: "Projects"
 permalink: /projects/
 ---
 
-### 📚 Lecture Notes
+## 📚 Lecture Notes
 
-Here you can find my lecture notes in PDF format.
+### Gravità e Superstringhe 1
 
-- [📄 Gravità e superstringhe 1]({{ site.baseurl }}/assets/GS1.pdf){: .btn .btn--primary }
-- [📄 Gravità e superstringhe 2 (pt.1)]({{ site.baseurl }}/assets/GS2(Pt.1).pdf){: .btn .btn--primary }
+[👁️ View](https://drive.google.com/file/d/1csyrIzGxBGRTu3xoCLim18-_DmjUYoO2/view){: .btn }
+
+[📄 Download](https://drive.google.com/uc?export=download&id=1csyrIzGxBGRTu3xoCLim18-_DmjUYoO2){: .btn .btn--primary }
 
 
-### RecenSito
+## RecenSito
 
 Visit my book project [**RecenSito**](https://giovannimaglio.pythonanywhere.com) — a personal web app for reviewing and sharing books.
 
-### Film watched
+## Film watched
 
 Here a list with rating  
 [📄 Download Film list (PDF)]({{ site.baseurl }}/assets/Film.pdf){: .btn .btn--primary }
