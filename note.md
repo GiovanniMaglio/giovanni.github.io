@@ -1,11 +1,8 @@
 ---
-title: "Notes"
+title: "📝 Some Personal Lecture Notes"
 permalink: /note/
 ---
 
-# 📝 Some Personal Lecture Notes
-
----
 
 ### 🎓 Academic Year 2025–2026
 
@@ -34,3 +31,5 @@ permalink: /note/
   [📄 Download](https://drive.google.com/uc?export=download&id=1R3nMGefqzzpqUGIMFv5LFsauPEnIkkcA)
 
 ---
+
+### ✏️ Other notes
