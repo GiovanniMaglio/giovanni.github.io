@@ -23,8 +23,8 @@ permalink: /note/
   [📄 Download](https://drive.google.com/uc?export=download&id=16CSYyy6Lgrc3W5KUT_Phw8cdsREt2Nd_)
 
 - **Struttura della Materia** —  
-  [👁️ View](https://drive.google.com/file/d/1yq_WRvy7neU9YZzzpSMjDQ4WBASx8Qpn/view) ·  
-  [📄 Download](https://drive.google.com/uc?export=download&id=1yq_WRvy7neU9YZzzpSMjDQ4WBASx8Qpn)
+  [👁️ View](https://drive.google.com/file/d/1nxKtRJ35LX20tSqEXORaNvb0KBBR4U3Z/view) ·  
+  [📄 Download](https://drive.google.com/uc?export=download&id=1nxKtRJ35LX20tSqEXORaNvb0KBBR4U3Z)
 
 - **Storia della Fisica** —  
   [👁️ View](https://drive.google.com/file/d/1R3nMGefqzzpqUGIMFv5LFsauPEnIkkcA/view) ·  
