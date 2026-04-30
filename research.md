@@ -12,5 +12,5 @@ permalink: /research/
 
 ---
 
-## 📄 Publications & Notes
+## 📄 Publications
 
