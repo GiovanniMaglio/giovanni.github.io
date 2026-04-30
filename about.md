@@ -11,7 +11,6 @@ permalink: /about/
 # 👋 About Me
 
 I’m **Giovanni Maglio**, a Physics graduate from the **University of Milan (Università degli Studi di Milano)**.  
-My work focuses on **electroweak interactions** and **Drell–Yan processes**, with particular attention to the parametrization of the proton and the impact of variations in the fundamental electroweak parameters.
 
 ---
 
@@ -32,7 +31,7 @@ My work focuses on **electroweak interactions** and **Drell–Yan processes**, w
 - Theoretical physics and fundamental interactions  
 - Quantum Field Theory (QFT) and the Standard Model  
 - Gauge symmetries and Lie groups  
-- Differential geometry and mathematical methods in physics  
+- Mathematical methods in physics  
 - Quantum gravity and string theory
 
 ---
