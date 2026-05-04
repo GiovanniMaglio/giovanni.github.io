@@ -10,6 +10,9 @@ permalink: /note/
 
 - **Gravità e Superstringhe 2 (Pt.1)** ·  [View](https://drive.google.com/file/d/1yq_WRvy7neU9YZzzpSMjDQ4WBASx8Qpn/view) ·  [Download](https://drive.google.com/uc?export=download&id=1yq_WRvy7neU9YZzzpSMjDQ4WBASx8Qpn)
 
+
+- **Geometria e Gruppi 2** ·  [View](https://drive.google.com/file/d/1WjMSh4PCid-__rt1AKRvsk9d1AaTo_eD/view) ·  [Download](https://drive.google.com/uc?export=download&id=1WjMSh4PCid-__rt1AKRvsk9d1AaTo_eD)
+
 ---
 
 ### 🎓 Academic Year 2024–2025
