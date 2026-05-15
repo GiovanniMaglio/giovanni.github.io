@@ -102,9 +102,8 @@ excerpt: "Personal site • Physics and more"
 <div class="intro-wrapper">
   <div class="intro-text">
     <p style="margin-top:0; font-size:1.05rem; color:#1e293b;">
-      Physics graduate from the University of Milan, with research interests in 
-      <strong>theoretical physics</strong> and 
-      <strong>mathematical structures of fundamental interactions</strong>.
+      Ciao, questo è il mio sito personale, aperto nel 2025.
+      Qui raccolgo alcune mie informazioni, progetti di ricerca, interessi personali e qualche appunto (per ora solo di fisica).
     </p>
   </div>
   <div class="intro-photo">
