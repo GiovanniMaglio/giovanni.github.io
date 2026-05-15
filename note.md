@@ -4,7 +4,8 @@ permalink: /note/
 ---
 
 
-### 🎓 Academic Year 2025–2026
+## Physics
+
 
 - **Gravità e Superstringhe 1**  · [View](https://drive.google.com/file/d/1csyrIzGxBGRTu3xoCLim18-_DmjUYoO2/view) ·  [Download](https://drive.google.com/uc?export=download&id=1csyrIzGxBGRTu3xoCLim18-_DmjUYoO2)
 
@@ -15,7 +16,6 @@ permalink: /note/
 
 ---
 
-### 🎓 Academic Year 2024–2025
 
 - **Introduzione alla Relatività Generale**  · 
   [View](https://drive.google.com/file/d/16CSYyy6Lgrc3W5KUT_Phw8cdsREt2Nd_/view) ·  [Download](https://drive.google.com/uc?export=download&id=16CSYyy6Lgrc3W5KUT_Phw8cdsREt2Nd_)
