@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/img/header.jpg
   overlay_color: "#1a2a52"
   overlay_filter: 0.15
-excerpt: "Personal site • Physics and more"
+excerpt: "Personal site"
 ---
 
 <style>
