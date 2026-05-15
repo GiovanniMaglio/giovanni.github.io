@@ -37,8 +37,7 @@ I’m **Giovanni Maglio**, a Physics graduate from the **University of Milan (Un
 ---
 
 ## 🌱 Personal Interests
-Beyond physics, I’m passionate about **literature, philosophy, and science communication**.  
-I believe that research and writing share the same purpose — to give form to curiosity and clarity to complexity.
+Beyond physics, I’m passionate about **literature, philosophy, and science communication**. 
 
 ---
 
