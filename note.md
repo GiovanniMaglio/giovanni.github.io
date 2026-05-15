@@ -1,5 +1,5 @@
 ---
-title: "📝 Some Personal Lecture Notes"
+title: "📝 Some Personal Notes"
 permalink: /note/
 ---
 
