@@ -4,13 +4,13 @@ permalink: /projects/
 ---
 
 
-## 📚 RecenSito
+## RecenSito
 
 Visit my book project [**RecenSito**](https://giovannimaglio.pythonanywhere.com) — a personal web app for reviewing and sharing books.
 
 
 
-## 🎬 Film watched
+## Film watched
 
 Here a list with rating  
 [📄 Download Film list (PDF)]({{ site.baseurl }}/assets/Film.pdf){: .btn .btn--primary }
