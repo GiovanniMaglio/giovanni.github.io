@@ -15,6 +15,9 @@ permalink: /note/
 - **Geometria e Gruppi 2** ·  [View](https://drive.google.com/file/d/1WjMSh4PCid-__rt1AKRvsk9d1AaTo_eD/view) ·  [Download](https://drive.google.com/uc?export=download&id=1WjMSh4PCid-__rt1AKRvsk9d1AaTo_eD)
 
 
+- **Appunti QFT ** ·  [View](https://drive.google.com/file/d/11XayJ3EnA_Hx-io-hOqp-NbhlOnYaQgA/view) ·  [Download](https://drive.google.com/uc?export=download&id=11XayJ3EnA_Hx-io-hOqp-NbhlOnYaQgA)
+
+
 - **Introduzione alla Relatività Generale**  · 
   [View](https://drive.google.com/file/d/16CSYyy6Lgrc3W5KUT_Phw8cdsREt2Nd_/view) ·  [Download](https://drive.google.com/uc?export=download&id=16CSYyy6Lgrc3W5KUT_Phw8cdsREt2Nd_)
 
