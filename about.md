@@ -36,7 +36,7 @@ I’m **Giovanni Maglio**, a Physics graduate from the **University of Milan (Un
 
 ---
 
-##  ersonal Interests
+## Personal Interests
 Beyond physics, I’m passionate about **literature, philosophy, and science communication**. 
 
 ---
