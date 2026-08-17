@@ -113,23 +113,23 @@ excerpt: ""
 
 ---
 
-## 👤 About & CV {#about}
+## About & CV {#about}
 [Open CV]({{ site.baseurl }}/about/){: .btn .btn--primary }
 
 ---
 
-## 🔬 Research {#research}
+## Research {#research}
 [Explore Research]({{ site.baseurl }}/research/){: .btn .btn--primary }
 
 ---
 
-## 🧰 Projects {#projects}
+## Projects {#projects}
 [View Projects]({{ site.baseurl }}/projects/){: .btn .btn--primary }
 
 
 ---
 
-## 📝 Notes {#note}
+## Notes {#note}
 [View Notes]({{ site.baseurl }}/note/){: .btn .btn--primary }
 
 
